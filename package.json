@@ -1,0 +1,13 @@
+{
+  "name": "syncforge-studio",
+  "version": "1.0.0",
+  "description": "SyncForge Studio - Video Editor Timeline and AI Prompt Generator (Web & Desktop)",
+  "private": true,
+  "scripts": {
+    "dev:backend": "backend_venv\\Scripts\\python.exe -m uvicorn backend.app:app --reload --port 8000",
+    "dev:backend:mac": "./backend_venv/bin/python -m uvicorn backend.app:app --reload --port 8000",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:electron": "npm start --prefix electron",
+    "build:frontend": "npm run build --prefix frontend"
+  }
+}

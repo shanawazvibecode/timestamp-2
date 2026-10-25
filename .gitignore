@@ -1,0 +1,34 @@
+# Virtual Environments
+backend_venv/
+venv/
+.venv/
+env/
+
+# Node modules and build
+node_modules/
+frontend/node_modules/
+electron/node_modules/
+frontend/dist/
+dist/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# App Temporary Audio & User Uploads / Outputs
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/temp/*
+!backend/temp/.gitkeep
+backend/outputs/*
+!backend/outputs/.gitkeep
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
